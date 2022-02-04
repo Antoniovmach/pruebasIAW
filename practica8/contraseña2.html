@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form id="ejercicio1">
+    
+    <input id="btn_ventana" type="button" value="validar" onclick="contraseña()">
+    <input id="btn_password" type="password" >
+   
+    </select>
+</form>
+    <script>
+
+        function contraseña () {
+      
+            if ((document.getElementById("btn_password").value.length) >= 5) {
+                document.write ("La tiene 5 o mas caracteres");
+            }
+            else {
+                document.write ("La contraseña tiene menos de 5 caracters");
+            } 
+            
+    }
+</script>
+</body>
+</html>

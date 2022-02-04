@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form id="ejercicio1">
+    
+    <input id="btn_ventana" type="button" value="validar" onclick="contraseña()">
+    <input id="btn_password" type="password" >
+    <input id="btn_password2" type="password" >
+    </select>
+</form>
+    <script>
+
+        function contraseña () {
+           /* alert(document.getElementById("btn_password2").value) 
+            alert(document.getElementById("btn_password").value) 
+            */
+            if (document.getElementById("btn_password2").value == document.getElementById("btn_password").value) {
+                document.write ("Las contraseñas son iguales");
+            }
+            else {
+                document.write ("Las contraseñas no son iguales");
+            } 
+            
+    }
+</script>
+</body>
+</html>

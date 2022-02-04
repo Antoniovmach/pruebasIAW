@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form id="ejercicio1">
+    <select name="color">
+        <option value="yellow">AMARILLO</option> 
+        <option value="red">ROJO</option> 
+        <option value="blue">AZUL</option>
+    <input id="btn_ventana" type="button" value="cambiar color" onclick=cambiacolor()>
+   
+    </select>
+</form>
+    <script>
+
+        function cambiacolor () {
+          document.body.style.background = ejercicio1.color.value;
+    }
+</script>
+</body>
+</html>
